@@ -44,14 +44,14 @@ div.column2 {
     
     flex-direction: row;
     grid-template-columns: 1fr 1fr; 
-    gap: 20px; /
+    gap: 20px; 
 }
 
 div.columnAbout {
     display: grid;
     flex-direction: row;
     grid-template-columns: 3fr 1fr; 
-    gap: 20px; /
+    gap: 20px; 
 }
 
 @media (max-width: 768px) {
@@ -99,7 +99,7 @@ div.centerImage {
     display: flex;
     justify-content: center; 
     align-items: center;       
-    order: ;
+  
 }
 
 div.centerImage2 {

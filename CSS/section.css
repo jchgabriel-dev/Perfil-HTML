@@ -1,0 +1,157 @@
+header.mainHeader {
+    background-color: #062951;
+    padding: 0px 10px 0px 30px;
+    margin:  0px; 
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    z-index: 4;
+
+    
+}
+
+footer.mainFooter {
+    background-color: #062951;
+    margin:  0px; 
+    border: 0px;
+    position: static;
+    width: 100%;
+    height: 60px;
+    z-index: 4;
+}
+
+div.mainDiv {
+    padding-top: 100px;
+    background-color: #ffffff;          
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 80%;    
+}
+
+nav.mainNav {
+    display: flex;
+    vertical-align: middle;
+    background-color: #062951;
+}
+
+
+div.column2 {
+    display: grid;
+    
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; /
+}
+
+div.columnAbout {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 3fr 1fr; 
+    gap: 20px; /
+}
+
+@media (max-width: 768px) {
+    div.column2 {
+        grid-template-columns:  1fr; 
+    }
+
+    div.columnAbout {
+        grid-template-columns:  1fr; 
+
+    }
+
+
+    div.centerImage {
+        order: 2;
+    }
+}
+
+@media (max-width: 968px) {
+   
+    div.centerRight {
+        flex-direction: column;
+    }
+
+    div.centerRight2 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+ 
+}
+
+
+
+div.textDiv {
+    display: flex;
+    justify-content: center; 
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+
+div.centerImage {
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+    order: ;
+}
+
+div.centerImage2 {
+    display: flex;
+    justify-content: center; 
+    align-items: top;       
+}
+
+div.centerRight {
+    display: flex;
+    gap: 10px;     
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+div.spanDiv {
+    background-color: #000;
+    line-height: 6px;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+div.centerRight2 {
+    display: flex;
+    gap: 10px;     
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    justify-content: center; 
+
+}
+
+div.projectCenterRight {
+    display: flex;
+    gap: 10px;     
+    flex-wrap: wrap; 
+    justify-content: center; 
+
+
+}
+
+div.projectCenterRight2 {
+    display: flex;
+    gap: 4px;     
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 0px 10px;
+
+
+}
+
+div.containerProject {
+    position: relative;
+}

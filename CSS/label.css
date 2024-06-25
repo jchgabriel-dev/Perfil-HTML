@@ -1,0 +1,124 @@
+p.name {
+    font-size: 17px;
+    font-family: Verdana;
+    color: #062951;
+    text-align: center;    
+}
+
+p.subtext {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #000000;
+}
+
+p.symbol {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #062951;
+    font-weight: bold;
+    margin: 15px 10px;    
+}
+
+p.text {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #000000;
+}
+
+p.perfilLabel {
+    font-family: Verdana;
+    color: #ffffff;
+    background-color: #062951;
+    padding: 10px 14px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+p.title {
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+p.text {
+    font-family: Verdana;
+    font-size: 14x;
+    text-align: justify;
+    margin: 4px 20px;
+
+}
+
+
+h1.subtitles {
+    font-size: 40px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+
+p.textAlternate {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #000000;
+    text-align: justify;
+}
+
+
+p.labelSub {
+    font-size: 16px;
+    font-family: Verdana;
+    color: #062951;
+    font-weight: bold;
+    text-decoration: underline;    
+    
+}
+
+p.labeSubSub {
+    font-size: 15px;
+    font-family: Verdana;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+p.dates {
+    font-size: 15px;
+    font-family: Verdana;
+    font-style: italic;
+
+}
+
+p.project {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin: 8px;
+    padding: 0;
+    text-decoration: underline 2px;
+}
+
+p.projectDescription {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0px 10px;
+    text-align: justify;
+    padding:  0;
+}
+
+p.ProjectTech {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 8px;
+    padding:  0;
+    font-weight: bold;
+}
+
+p.footertext {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}

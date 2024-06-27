@@ -17,3 +17,13 @@ botones.forEach(boton => {
         window.open(enlace, '_blank');
     });
 });
+
+
+const corners = document.querySelectorAll('.btn-corner');
+corners.forEach(boton => {
+    boton.addEventListener('click', function() {
+        const enlace = this.getAttribute('data-enlace');
+
+        window.open(enlace, '_blank');
+    });
+});

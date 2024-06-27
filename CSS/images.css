@@ -8,7 +8,8 @@ img.imgComputadora {
 img.imgProject {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
-
+    object-fit: contain;
+    height: 100%;
 }
 
 img.imgPerfil {

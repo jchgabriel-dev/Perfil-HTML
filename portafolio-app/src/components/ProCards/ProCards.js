@@ -27,7 +27,7 @@ const proyects = [
         name: "Ecommerce Page Product",
         image: IMAGES.imageTiendaHtml,
         linkGit: "https://github.com/jchgabriel-dev/Tienda-HTML",
-        linkProyect: "",
+        linkProyect: "https://main--zesty-alfajores-d8aa07.netlify.app/",
         description: "Pagina web que muestre la vista de un producto",
         tools: ["CSS", "HTTML", "JavaScript"]
     },

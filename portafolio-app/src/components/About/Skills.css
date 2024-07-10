@@ -1,0 +1,92 @@
+/* CARTA */
+
+.skills-total {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.skill-card {
+    background-color: red;
+    border-radius: 0.5rem;
+    background: linear-gradient(       
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.8),        
+        #fff
+   
+    );      
+    margin: 0.5rem 0.3rem;
+    max-height: 200px;    
+    transition-duration: 200ms;
+    position: relative;
+  
+}
+
+.skill-card:hover {
+    scale: 0.95;
+}
+
+.skill-card::after {
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition-duration: 200ms;
+}
+.skill-card:hover::after {
+    background-color: #ffffff98;
+}
+
+
+
+
+/* ELEMENTOS */ 
+
+.skill-card h2{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    font-size: 20px;
+    padding: 0.3rem;
+    
+
+}
+.container-100 {
+    text-align: center;
+}
+
+.svg-skill {
+  width: 100%;
+  height: 100%;
+ 
+}
+@media (max-width: 480px) {
+    .skill-card {
+        max-width: 40%;  
+        max-height: 130px;
+        
+    }
+    .skill-card svg {
+        margin-left: 5px;
+    }
+    .skill-card h2 {
+        text-wrap: nowrap;
+        overflow-x: hidden;
+    }
+    .svg-skill {
+        width: 120px;
+        height: 130px;
+       
+      }
+    
+    .skill-card h3 {
+        display: none;
+    }
+    
+}

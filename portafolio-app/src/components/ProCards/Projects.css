@@ -1,0 +1,151 @@
+.card-proyect {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 350px;
+    margin: 1rem 0.5rem;
+    transition-duration: 200ms;
+}
+
+.card-proyect:hover {
+    scale: 0.96;
+    
+}
+
+.card-proyect img{
+    width: 100%;
+}
+
+.card-proyect p {
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.card-proyect h1 {
+    color: #000;
+    background-color: rgba(255, 255, 255, .8);
+    font-size: 18px;
+    border: 100px;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    padding: 0.1rem 0;
+}
+
+.card-proyect h3 {
+    margin: 0.5rem 0;
+    background-color: rgba(0, 16, 135, 0.9);
+    color: #fff;
+    
+}
+
+.project-total {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tools {
+    margin: .5rem 0.5rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*  LINKS */ 
+
+.links-con {
+    display: flex;
+    font-size: 25px;
+    color: #fff;    
+}
+
+
+
+.project-git {
+    padding: 0.1rem;
+    background-color: transparent;
+    width: 50%;
+    color: #fff;    
+    position: relative;
+    z-index: 2;
+}
+
+.project-git:hover {
+    color: #000;
+}
+
+.project-git::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff80;
+    z-index: -1;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+        transition: width 200ms ease-in-out; 
+
+}
+
+.project-git:hover::after {
+    width: 100%; 
+}
+
+.project-web {
+    padding: 0.1rem;
+    background-color: transparent;
+    width: 50%;
+    color: #fff;    
+    position: relative;
+    z-index: 2;
+
+}
+.project-web:hover {
+    color: #000;
+}
+
+
+.project-web::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff80;
+    z-index: -1;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    transition: width 200ms ease-in-out; 
+
+}
+
+.project-web:hover::after {
+    width: 100%; 
+}
+
+/* CONTACTOS */ 
+
+
+.footer {
+    color: #fff;
+    bottom: 0;
+    z-index: 1000;
+    padding: 1.1rem 5rem;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: gray;
+}
